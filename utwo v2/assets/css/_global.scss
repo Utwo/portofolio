@@ -11,6 +11,7 @@ html {
 body {
   margin: 0;
   color: #eee;
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
   font: 100%/1.6 'Bree Serif', serif;
   text-rendering: optimizeLegibility;
   position: absolute;
@@ -23,7 +24,7 @@ body:before {
   position: absolute;
   bottom: 0;
   left: 50%;
-  animation: 4s bounceInDown forwards ease-in-out;
+  animation: 3s bounceInDown forwards ease-in-out;
   width: 10em;
   height: 10em;
   overflow: hidden;
