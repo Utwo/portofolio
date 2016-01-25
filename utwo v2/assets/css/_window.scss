@@ -1,0 +1,100 @@
+.window {
+  position: absolute;
+  backface-visibility: hidden;
+  transition: 1s all ease-in-out;
+  width: 100%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: $grey-light;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.8);
+}
+
+/*
+.window:after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,.1);
+  top: 1em;
+  left: 1em;
+  z-index: -1;
+}
+*/
+
+.window-titlebar {
+  border-radius: 5px 5px 0 0;
+  background: $white-dark;
+  padding: .5em;
+  color: darken($white-dark, 10);
+  font-size: 2em;
+  line-height: 0;
+}
+
+.window-content {
+  position: relative;
+  overflow: hidden;
+  background: #333;
+  border-radius: 0 0 5px 5px;
+}
+
+.window-content .code:before {
+  content: '';
+  width: 1.8em;
+  height: 100%;
+  background: $grey-dark;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.window-content .code {
+  font-family: monospace;
+  padding: 1em 0 1em 1.4em;
+  margin: 0;
+}
+
+.window-content .code li {
+  width: 100%;
+  margin: .4em .2em;
+  padding: 0 0 0 1em;
+  position: relative;
+  z-index: 2;
+  color: $grey-light;
+}
+
+.window-content .code li span {
+  margin: 0 .4em;
+  border-radius: 10px;
+  transition: .6s all;
+}
+
+.window-content:hover .code li span{
+  color: #999;
+  background: none;
+}
+
+.window-content .mock-header{
+  background: $orange;
+  height: 1.8em;
+}
+
+.window-content .mock-sidebar{
+  background: $purple;
+  width: 20%;
+  height: 7em;
+  float: left;
+}
+
+.window-content .mock-main{
+  background: $yellow;
+  width: 80%;
+  height: 7em;
+  float:right;
+}
+
+.window-content .mock-footer{
+  clear: both;
+  background: $turcoaz;
+  height: 1.8em;
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 40em) {
+  body {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .logo {
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 20em) {
+  .logo {
+    font-size: 4em;
+  }
+}

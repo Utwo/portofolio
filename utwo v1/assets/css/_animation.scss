@@ -1,0 +1,29 @@
+@keyframes startup {
+  from {
+    transform: translateX(100%) rotate(10deg);
+  }
+
+  to {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes startup-rev {
+  from {
+    transform: translateX(-100%) rotate(10deg);
+  }
+
+  to {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

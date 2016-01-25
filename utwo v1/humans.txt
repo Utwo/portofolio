@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# Creator
+	Utwo - web design & web development
+  	Twitter: @utwoo
+  	Site: www.utwo.ro
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, jQuery, html5boilerplate
+    Manual coded in Sublime while listen music from hellomix.com
+
+# OTHER
+	you can find the max-style.css here http://utwo.ro/css/max-style.css

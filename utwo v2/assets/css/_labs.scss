@@ -1,0 +1,43 @@
+.labs{
+  max-width: 300px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  color: #666;
+  border: 10px solid $turcoaz;
+  transform: translateX(310px);
+  transition: .4s all ease-in-out;
+}
+
+.labs:hover{
+  transform: translateX(0);
+}
+
+.labs h3{
+  text-align: center;
+  color: $turcoaz;
+}
+
+.labs a{
+  color: #999;
+}
+
+.labs ol{
+  padding: 0 1em;
+  list-style: none;
+}
+
+.labs li a{
+  display: block;
+  transition: .4s all;
+  padding: .6em .8em;
+  border-top: 1px solid $white-dark;
+}
+
+.labs li a:hover{
+  background: #eee;
+  color: #555;
+}
