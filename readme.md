@@ -1,3 +1,3 @@
 ## Personal portofolio
 
-There are to version in this repository (old and new one)
+There are 2 version in this repository (old and new one)
