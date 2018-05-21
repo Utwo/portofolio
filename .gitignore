@@ -1,4 +1,5 @@
 .idea
-node_modules/**/*
-*.lnk
+node_modules
 desktop.ini
+.cache
+dist
