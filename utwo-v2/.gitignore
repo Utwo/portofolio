@@ -1,5 +1,0 @@
-.idea
-node_modules/**/*
-desktop.ini
-.cache
-dist
