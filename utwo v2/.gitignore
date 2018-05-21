@@ -1,9 +1,5 @@
 .idea
 node_modules/**/*
-public/css/*
-public/js/*
-public/img/*
-public/font/*
-public/*.html
-*.lnk
 desktop.ini
+.cache
+dist
