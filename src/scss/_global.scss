@@ -24,9 +24,9 @@ body:before {
   position: absolute;
   bottom: 0;
   left: 50%;
-  animation: 1s bounceInDown forwards ease-in-out;
-  width: 10em;
-  height: 10em;
+  animation: 1s bounceInDown forwards;
+  width: 50em;
+  height: 50em;
   overflow: hidden;
   border-radius: 50%;
   box-shadow: 0 0 20px 5px $cyan;
@@ -64,7 +64,7 @@ header {
   letter-spacing: -.2em;
   transition: all 1s ease-in;
   opacity: 0;
-  animation: show .6s forwards cubic-bezier(.17, .67, .83, .67) 2s, scale-up .6s forwards cubic-bezier(.17, .67, .83, .67) 2s;
+  animation: show .4s forwards cubic-bezier(.17, .67, .83, .67) 1.2s, scale-up .4s forwards cubic-bezier(.17, .67, .83, .67) 1.2s;
   margin: 0;
 }
 
@@ -77,21 +77,21 @@ header {
   transition: all .7s ease-in;
 }
 
-.logo:hover span:nth-of-type(1) {
+header:hover .logo span:nth-of-type(1) {
   transform: translate(.98em, -1.2em);
 }
 
-.logo:hover span:nth-of-type(2) {
+header:hover .logo span:nth-of-type(2) {
   transform: translate(.32em, -.37em);
   transition-delay: .5s;
 }
 
-.logo:hover span:nth-of-type(3) {
+header:hover .logo span:nth-of-type(3) {
   transform: translate(-.62em, -.9em);
   transition-delay: .8s;
 }
 
-.logo:hover span:nth-of-type(4) {
+header:hover .logo span:nth-of-type(4) {
   transform: translate(-1.55em, -.1em);
   transition-delay: 1.2s;
 
@@ -100,7 +100,7 @@ header {
 h2 {
   font-size: 1.2em;
   opacity: 0;
-  animation: .6s show forwards ease-in-out 3.6s;
+  animation: .4s show forwards ease-in-out 1.8s;
   font-weight: 100;
 }
 
@@ -117,18 +117,18 @@ hr {
   perspective: 800px;
   transform-style: preserve-3d;
   opacity: 0;
-  animation: 1s show forwards ease-in-out 4.8s, 1s scale-up forwards ease-in-out 4.8s;
+  animation: .6s show forwards ease-in-out 2.4s, .6s scale-up forwards ease-in-out 2.4s;
   max-width: 260px;
   margin: 0 auto;
 }
 
 .frontface {
-  animation: 15s flip 5s infinite cubic-bezier(1.000, 0.005, 0.000, 1.005);
+  animation: 15s flip 3s infinite cubic-bezier(1.000, 0.005, 0.000, 1.005);
 }
 
 .backface {
   transform: rotateY(180deg);
-  animation: 15s flip-reverse 5s infinite cubic-bezier(1.000, 0.005, 0.000, 1.005);
+  animation: 15s flip-reverse 3s infinite cubic-bezier(1.000, 0.005, 0.000, 1.005);
 }
 
 /*
