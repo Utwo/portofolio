@@ -1,17 +1,17 @@
 {
-  "name": "utwo-portofolio",
-  "version": "0.0.1",
-  "description": "utwo portofolio",
-  "main": "index.html",
-  "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html"
-  },
-  "author": "Utwo",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^4.9.0",
-    "parcel-bundler": "^1.8.1"
-  },
-  "dependencies": {}
+	"name": "utwo-portofolio",
+	"version": "0.0.1",
+	"description": "utwo portofolio",
+	"main": "src/index.html",
+	"scripts": {
+		"build": "pingy export",
+		"dev": "pingy dev --no-open"
+	},
+	"author": "Utwo",
+	"license": "ISC",
+	"devDependencies": {
+		"@pingy/cli": "^0.12.4",
+		"node-sass": "^4"
+	},
+	"dependencies": {}
 }

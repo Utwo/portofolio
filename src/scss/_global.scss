@@ -11,7 +11,7 @@ html {
 body {
   margin: 0;
   color: #eee;
-  background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
+  background: linear-gradient(to left, #ece9e6 , #fff);
   font: 100%/1.6 'Bree Serif', serif;
   text-rendering: optimizeLegibility;
   position: absolute;
@@ -24,7 +24,7 @@ body:before {
   position: absolute;
   bottom: 0;
   left: 50%;
-  animation: 3s bounceInDown forwards ease-in-out;
+  animation: 1s bounceInDown forwards ease-in-out;
   width: 10em;
   height: 10em;
   overflow: hidden;
@@ -64,7 +64,7 @@ header {
   letter-spacing: -.2em;
   transition: all 1s ease-in;
   opacity: 0;
-  animation: show .6s forwards cubic-bezier(.17, .67, .83, .67) 5s, scale-up .6s forwards cubic-bezier(.17, .67, .83, .67) 5s;
+  animation: show .6s forwards cubic-bezier(.17, .67, .83, .67) 2s, scale-up .6s forwards cubic-bezier(.17, .67, .83, .67) 2s;
   margin: 0;
 }
 
@@ -100,7 +100,7 @@ header {
 h2 {
   font-size: 1.2em;
   opacity: 0;
-  animation: .6s show forwards ease-in-out 6.6s;
+  animation: .6s show forwards ease-in-out 3.6s;
   font-weight: 100;
 }
 
@@ -110,14 +110,14 @@ hr {
   border: 0;
   border-radius: 5px;
   opacity: 0;
-  animation: .4s show forwards ease-in-out 4.6s;
+  animation: .4s show forwards ease-in-out 1.6s;
 }
 
 .flip {
   perspective: 800px;
   transform-style: preserve-3d;
   opacity: 0;
-  animation: 1s show forwards ease-in-out 7.8s, 1s scale-up forwards ease-in-out 7.8s;
+  animation: 1s show forwards ease-in-out 4.8s, 1s scale-up forwards ease-in-out 4.8s;
   max-width: 260px;
   margin: 0 auto;
 }
