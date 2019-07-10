@@ -4,13 +4,14 @@
 	"description": "utwo portofolio",
 	"main": "src/index.html",
 	"scripts": {
-		"build": "pingy export",
-		"dev": "pingy dev --no-open"
+		"build": "npm run clean && pingy export",
+		"dev": "pingy dev --no-open",
+		"clean": "rm -rf dist"
 	},
 	"author": "Utwo",
 	"license": "ISC",
 	"devDependencies": {
-		"@pingy/cli": "^0.12.4",
+		"@pingy/cli": "^0.13.0",
 		"node-sass": "^4"
 	},
 	"dependencies": {}
