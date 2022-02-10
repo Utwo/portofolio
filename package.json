@@ -12,7 +12,7 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@pingy/cli": "^0.13.0",
-		"node-sass": "^4"
+		"node-sass": "^7"
 	},
 	"dependencies": {}
 }
